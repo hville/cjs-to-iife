@@ -1,6 +1,6 @@
 {
   "name": "@hugov/cjs-to-iife.git",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "small simple bundler",
   "keywords": [
     "rollup",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "node test",
-    "prepublishOnly": "npm test"
+    "post": "npm test && npm publish --access public"
   },
   "repository": {
     "type": "git",
