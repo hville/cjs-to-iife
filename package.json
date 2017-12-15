@@ -1,6 +1,6 @@
 {
-  "name": "@hugov/cjs-to-iife.git",
-  "version": "0.1.0",
+  "name": "@hugov/cjs-to-iife",
+  "version": "0.1.1",
   "description": "small simple bundler",
   "keywords": [
     "rollup",
