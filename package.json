@@ -1,6 +1,6 @@
 {
   "name": "@hugov/cjs-to-iife",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "small simple bundler",
   "keywords": [
     "rollup",
@@ -11,12 +11,12 @@
   ],
   "author": "Hugo Villeneuve",
   "dependencies": {
-    "rollup": "^0.67.0",
+    "rollup": "^1.1.0",
     "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^3.4.0"
+    "rollup-plugin-node-resolve": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.5",
+    "@types/node": "^10.12.18",
     "@types/rollup": "^0.54.0",
     "cotest": "^4.0.1"
   },

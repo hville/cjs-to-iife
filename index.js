@@ -21,6 +21,5 @@ module.exports = async function bundle(f) {
 		input: PATH.resolve(PATH.dirname(module.parent.filename), f),
 		plugins: plugins
 	})
-	const {code,} = await bndl.generate(exportOptions)
-	return code
+	return (await bndl.generate(exportOptions)).output[0].code
 }
